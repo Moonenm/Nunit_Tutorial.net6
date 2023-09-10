@@ -48,7 +48,7 @@ namespace Nunit_Tutorial.net6_Tests.ViewModels
         public void Multiply_TwoIntegers_SetsResultLabelToResult()
         {
             //Arrange
-            calculatorViewModel.Number1 = "6";
+            calculatorViewModel.Number1 = "7";
             calculatorViewModel.Number2 = "7";
 
             //Act
