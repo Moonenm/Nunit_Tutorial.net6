@@ -1,0 +1,20 @@
+﻿<Window x:Class="Nunit_Tutorial.net6.Views.ExtraWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Nunit_Tutorial.net6.Views"
+        mc:Ignorable="d"
+        Title="ExtraWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel HorizontalAlignment="Left" Height="100" Margin="350,175,0,0" VerticalAlignment="Top" Width="100">
+            <Label  Content="Extra" AutomationProperties.AutomationId="ResultLabel2" x:Name="ResultLabel2"/>
+        </StackPanel>
+
+        <StackPanel HorizontalAlignment="Left" Height="81" Margin="350,280,0,0" VerticalAlignment="Top" Width="100">
+            <Button Content="Open Calculator" AutomationProperties.AutomationId="Calculator" Click="OpenCalculator_Click" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        </StackPanel>
+        
+    </Grid>
+</Window>

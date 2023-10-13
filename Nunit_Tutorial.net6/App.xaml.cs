@@ -20,7 +20,12 @@ namespace Nunit_Tutorial.net6
             CalculatorWindow calculatorWindow = new CalculatorWindow();
             CalculatorViewModel calculatorViewModel = new CalculatorViewModel();
             calculatorWindow.DataContext = calculatorViewModel;
-            calculatorWindow.Show();
+           /* calculatorWindow.Show();*/
+
+            ExtraWindow ExtraWindow = new ExtraWindow();
+            ExtraWindowViewModel extraWindowViewModel = new ExtraWindowViewModel();
+           // extraWindowViewModel.DataContext = extraWindowViewModel;
+            ExtraWindow.Show();
         }
     }
 }
